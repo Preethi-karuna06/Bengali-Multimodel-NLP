@@ -1,6 +1,8 @@
-# 🇧🇩 Bengali Multimodal NLP System
+# Bengali Multimodal NLP System
 
 **A unified summarization, visual question answering, extractive QA, and speech recognition pipeline for the Bengali language.**
+
+
 
 ## Overview
 
@@ -165,14 +167,7 @@ Each module operates independently but shares a common Bengali text preprocessin
 
 ---
 
-## Repository Structure
 
-
-```
-
-> **Note:** Notebooks, trained model checkpoints, and datasets are not hosted in this repository. All code runs directly from the [Colab notebook](https://colab.research.google.com/drive/1z9cXqot8m6TCcJoEc1_VWrwV-e5WgvsG?usp=sharing) linked above.
-
----
 
 ## Getting Started
 
@@ -226,11 +221,3 @@ Launching the interface (from notebook 04) generates a public Gradio link for th
 - ASR has not been systematically evaluated on dialectal variation (e.g., Sylheti, Chittagonian Bengali).
 
 Planned improvements: larger/more diverse Bengali VQA data to reduce the MCRAN train/val accuracy gap (~85% vs ~63%), dialect-robust ASR fine-tuning, and exploring larger mT5 checkpoints for abstractive summarization.
-
----
-
-
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
